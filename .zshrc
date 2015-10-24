@@ -13,15 +13,8 @@ compinit -u
 
 setopt auto_cd
 
-# vim
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/MacVim
-alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-
-
 #ls
 alias ls="ls -G"
-
 
 # 履歴ファイルの保存先
 export HISTFILE=${HOME}/.zsh_history
@@ -41,7 +34,7 @@ setopt EXTENDED_HISTORY
 # JAVA
 export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
 
 #npm
 export PATH=/usr/local/share/npm/bin:$PATH
