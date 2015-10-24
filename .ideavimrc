@@ -1,0 +1,10 @@
+set hlsearch
+
+set scrolloff=10
+
+set shiftwidth=4
+set tabstop=4
+set expandtab
+
+inoremap <silent> <Esc> <Esc>
+inoremap <silent> <C-{> <Esc>

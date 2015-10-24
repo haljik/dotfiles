@@ -1,0 +1,12 @@
+[user]
+	name = haljik
+	email = seiji.kawakami@sora-works.com
+[core]
+	autocrlf = input
+	editor = vim -c \"set fenc-utf-8\"
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
