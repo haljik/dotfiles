@@ -1,8 +1,10 @@
 #/usr/local/bin to PATH
 export PATH=/usr/local/bin:$PATH
 
-# pronpt
-PROMPT='[%n@%m]# '
+# prompt
+setopt PROMPT_SUBST
+source $(brew --prefix git)/etc/bash_completion.d/git-prompt.sh
+PS1='[%n@%m %c$(__git_ps1 " (%s)")]# '
 RPROMPT='[%d]'
 
 bindkey -v
