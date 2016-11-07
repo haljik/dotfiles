@@ -40,7 +40,3 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
 
 #npm
 export PATH=/usr/local/share/npm/bin:$PATH
-
-# Docker
-eval "$(docker-machine env default)"
-
