@@ -3,7 +3,7 @@ export PATH=/usr/local/bin:$PATH
 
 # prompt
 setopt PROMPT_SUBST
-source $(brew --prefix git)/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-prompt.sh
 PS1='[%n@%m %c$(__git_ps1 " (%s)")]# '
 RPROMPT='[%d]'
 
@@ -35,8 +35,7 @@ setopt EXTENDED_HISTORY
 
 # JAVA
 export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
 
 #npm
 export PATH=/usr/local/share/npm/bin:$PATH
