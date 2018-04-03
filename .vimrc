@@ -1,4 +1,4 @@
-
+set belloff=all
 set backup
 set backupdir=$HOME/vimtemp
 set swapfile
