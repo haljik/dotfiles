@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	editor = vim -c \"set fenc-utf-8\"
+	excludesfile = /Users/haljik/.gitignore_global
 [push]
 	default = simple
 [filter "lfs"]
