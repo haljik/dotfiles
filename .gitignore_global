@@ -2,4 +2,7 @@
 .DS_Store
 
 .idea/
+out/
+
 .gradle/
+build/
