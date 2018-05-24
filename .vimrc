@@ -11,6 +11,7 @@ set browsedir=buffer
 "set list
 set number
 set showmatch
+set expandtab
 set shiftwidth=4
 set tabstop=4
 
