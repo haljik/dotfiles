@@ -35,7 +35,8 @@ setopt EXTENDED_HISTORY
 
 # JAVA
 export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
 
 #npm
 export PATH=/usr/local/share/npm/bin:$PATH
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"
