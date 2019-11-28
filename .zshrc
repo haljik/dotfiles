@@ -40,3 +40,6 @@ export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
 export PATH=/usr/local/share/npm/bin:$PATH
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
+eval "$(rbenv init -)"
+
+source $HOME/.cargo/env
